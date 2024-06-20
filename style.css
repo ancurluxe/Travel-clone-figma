@@ -1,0 +1,192 @@
+* {
+  margin: 0px !important;
+}
+.top-header {
+  background-color: black;
+  display: flex;
+  flex-direction: row;
+  color: aliceblue;
+  padding: 20px;
+  justify-content: space-around;
+}
+.div1 {
+  display: flex;
+  justify-content: space-between;
+  gap: 150px;
+}
+.gmail {
+  display: flex;
+}
+.location {
+  display: flex;
+}
+.socials {
+  display: flex;
+  justify-content: space-between;
+  gap: 20px;
+}
+.nav-bar {
+  list-style-type: none;
+  display: flex;
+  gap: 50px;
+  justify-content: space-around;
+  padding: 20px;
+}
+.nav-contents {
+  display: flex;
+  gap: 60px;
+  align-items: center;
+}
+.main {
+  position: relative;
+}
+.main-img img {
+  width: 100%;
+}
+.main-txt {
+  position: absolute;
+  color: white;
+  font-size: xx-large;
+  padding-left: 90px;
+  top: 50%;
+  line-height: 66px;
+}
+.explore-btn button {
+  font-size: x-large;
+  padding: 10px;
+  border-radius: 10px;
+  border: none;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+.title {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+.title-txt {
+  font-size: x-large;
+  color: rgb(237, 143, 19);
+}
+.sub-txt {
+  font-size: xx-large;
+  font-weight: 600;
+}
+.dest-background {
+  background: #e8e7e7;
+}
+.card {
+  display: flex;
+  gap: 20px;
+  padding-left: 100px;
+  padding-right: 100px;
+  padding-bottom: 60px;
+}
+
+.card-image {
+  width: 100%;
+  height: auto;
+}
+
+.card-content {
+  /* padding: 20px; */
+}
+
+.card-title {
+  font-size: 24px;
+  margin: 0 0 10px;
+}
+
+.card-description {
+  font-size: 16px;
+  color: #666;
+  margin: 0 0 20px;
+}
+.card-1 {
+  background-color: #fff;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+  width: 300px;
+  text-align: center;
+  width: 550px;
+}
+.card-2 {
+  background-color: #fff;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+  text-align: center;
+  width: 550px;
+}
+.card-3 {
+  background-color: #fff;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+  /* width: 300px; */
+  text-align: center;
+  width: 550px;
+}
+
+.card-itly {
+  background-color: #f7f5f5;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0.1, 0, 0.1, 0.1);
+  overflow: hidden;
+  width: 350px;
+  /* text-align: center; */
+  margin-left: 70px !important;
+  margin-bottom: 50px !important;
+}
+.days {
+  display: flex;
+  gap: 10px;
+}
+.user {
+  display: flex;
+  gap: 10px;
+}
+.icons {
+  display: flex;
+  gap: 80px;
+  padding: 20px;
+}
+.explore {
+  display: flex;
+  gap: 5px;
+  border-top: 1px solid #666;
+  padding: 20px;
+}
+.card-title {
+  padding: 30px;
+}
+.card-itly img {
+  width: 350px;
+  height: 250px;
+}
+.card-maldives {
+  background-color: #f7f5f5;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0.1, 0, 0.1, 0.1);
+  overflow: hidden;
+  width: 350px;
+  /* text-align: center; */
+  margin: 70px !important;
+  margin-bottom: 50px !important;
+}
+.explore-cards {
+  display: flex;
+}
+.card-niagra {
+  background-color: #f7f5f5;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0.1, 0, 0.1, 0.1);
+  overflow: hidden;
+  width: 350px;
+  /* text-align: center; */
+  margin-right: 70px !important;
+  margin-bottom: 50px !important;
+}
