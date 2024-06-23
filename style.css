@@ -291,7 +291,6 @@
   overflow: hidden;
   width: 600px;
   margin: 10px !important;
-
 }
 .review-card-1 img {
   width: 150px;
@@ -323,26 +322,67 @@
   display: flex;
   margin-bottom: 50px !important;
 }
-.review-card-description{
+.review-card-description {
   margin-bottom: 20px;
 }
-.bar-bg{
+.bar-bg {
   background-color: orangered;
 }
-.bar{
+.bar {
   display: flex;
   justify-content: space-between;
   height: 100px;
   padding: 50px;
   align-items: center;
 }
-
-.bar-txt h{
-font-weight: 900;
+.bar-txt {
+  margin-left: 30px !important;
 }
-.book-btn{
-  width: 200px;
-  height: 20px;
+.bar-txt h {
+  font-weight: 900;
+}
+.book-btn button {
+  background-color: white;
+  font-size: larger;
+  padding: 10px;
+  border: none;
+  border-radius: 20px;
+  margin-right: 30px !important;
+}
+.footer {
+  background-color: black;
+  display: flex;
+  padding: 40px;
+}
+.f-logo img {
+  background-color: white;
+  padding: 10px;
+}
+.f-logo{
+  padding: 10px;
+}
+.f-text {
+  color: white; 
+}
+.quick-links li {
+  list-style-type: none !important;
+  padding: 10px;
+}
+.contact li{
+  list-style-type: none !important;
+  padding: 10px;
+}
+.quick-links {
   color: white;
- 
+  /* padding: 15px; */
 }
+.contact {
+  color: white;
+}
+.newsletter{
+  color: white;
+}
+.newsletter-contents{
+  padding: 10px;
+}
+
