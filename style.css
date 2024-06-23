@@ -385,4 +385,12 @@
 .newsletter-contents{
   padding: 10px;
 }
-
+.f-f {
+display: flex;
+justify-content: center !important;
+align-items: center !important;
+border-top:2px solid white ;
+color: white;
+background-color: black;
+padding: 20px;
+}
