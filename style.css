@@ -178,14 +178,21 @@
   width: 350px;
   height: 250px;
 }
-
 .card-maldives {
   background-color: #f7f5f5;
-  border-radius: 20px;
+  border-radius: 10px;
   box-shadow: 0 4px 8px rgba(0.1, 0, 0.1, 0.1);
   overflow: hidden;
   width: 350px;
+  display: flex;
+  flex-direction: column !important;
+  flex-direction: column-reverse !important;
 }
+.card-maldives img{
+    width: 350px;
+  height: 250px;
+}
+
 
 .card-niagra {
   background-color: #f7f5f5;
