@@ -35,30 +35,30 @@
 .socials i {
   color: orangered;
 }
-.menu-icon{
-  width:25px;
+.menu-icon {
+  width: 25px;
   cursor: pointer;
-display: none;
-color: rgb(10, 9, 9);
+  display: none;
+  color: rgb(10, 9, 9);
+}
+.menus:hover {
+  color: orangered;
+  cursor: pointer;
 }
 .nav-bar {
   list-style-type: none;
   display: flex;
   gap: 50px;
-  /* justify-content: space-around; */
-  padding: 20px;
-  padding-left: 140px;
-  padding-right: 140px;
+
 }
+
 .nav-contents {
   display: flex;
   /* justify-content: space-between; */
   gap: 90px;
   align-items: center;
 }
-.nav-contents:hover h {
-  color: orangered;
-}
+
 .btn-nav {
   font-size: medium;
   padding: 10px;
@@ -117,6 +117,7 @@ color: rgb(10, 9, 9);
 }
 .card {
   display: flex;
+  flex-wrap: wrap;
   gap: 20px;
   padding-left: 100px;
   padding-right: 100px;
@@ -292,7 +293,7 @@ color: rgb(10, 9, 9);
 }
 .blog-card-img img {
   width: 300px;
-  height: 300px;
+  height: 100%;
 }
 
 .title-head {
@@ -455,27 +456,25 @@ color: rgb(10, 9, 9);
 }
 
 /* Responsive  */
-@media only screen and (max-width: 700px) {
-  .top-header{
-    background: black;
+@media only screen and (max-width: 768px) {
+  .top-header {
+    display: none;
   }
- .nav-bar{
-  width:100%;
-  background: orangered;
-  color: black;
-  position: absolute;
-  top: 75px;
-  right: 1;
-  z-index:2;
- }
-.nav-bar h{
-  display:block;
-  margin-top: 10px;
-  margin-bottom: 10px;
-}
-.menu-icon{
-  display: block;
-}
-
-
+  .nav-bar {
+    width: 100%;
+    background: orangered;
+    color: black;
+    position: absolute;
+    top: 75px;
+    right: 1;
+    z-index: 2;
+  }
+  .nav-bar h {
+    display: block;
+    margin-top: 10px;
+    margin-bottom: 10px;
+  }
+  .menu-icon {
+    display: block;
+  }
 }
