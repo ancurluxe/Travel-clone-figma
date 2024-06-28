@@ -1,0 +1,139 @@
+@media only screen and (max-width: 500px) {
+  .top-header {
+    display: none;
+  }
+  .nav-bar {
+    display: none;
+  }
+  .nav-menu {
+    display: none;
+    justify-content: space-between;
+  }
+  .nav-logo {
+    display: flex;
+    margin: 0;
+  }
+  .mobile-nav {
+    display: flex;
+    justify-content: end;
+    text-decoration: none;
+    padding: 10px;
+  }
+  .nav-toggle {
+    display: flex;
+    margin-right: 20px;
+  }
+  .menu-icon {
+    display: flex;
+  }
+  .sidebar {
+    display: block;
+    justify-content: space-between;
+    width: 180px;
+  }
+
+  .sidebar li a {
+    text-decoration: none;
+    font-size: larger;
+    margin: 40px;
+    line-height: 50px;
+    color: black;
+  }
+  .sidebar li img {
+    text-decoration: none;
+    font-size: larger;
+    margin: 20px;
+    line-height: 50px;
+  }
+  .main-txt {
+    padding-left: 10px;
+    top: 27%;
+    margin-left: 40px;
+  }
+  .main-txt p {
+    font-size: small;
+  }
+  .main-txt h5 {
+    font-size: medium;
+  }
+  .explore-btn button {
+    font-size: 14px;
+    padding: 5px;
+    border-radius: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+
+  .tour-type-txt {
+    font-size: medium;
+  }
+  .adventure-icons {
+    display: none;
+    left: 0px;
+    padding: 10px;
+    gap: 30px;
+  }
+  .inner-container {
+    height: 25px;
+    width: 25px;
+    padding: 10px;
+  }
+  .inner-container img {
+    height: 5px;
+    width: 25px;
+  }
+  .card-1 {
+    width: 550px;
+    margin-bottom: 20px;
+  }
+  .card-content h2 {
+    font-size: 32px;
+  }
+  .card-content p {
+    font-size: 17px;
+  }
+  .card-2 {
+    width: 450px;
+    margin-bottom: 20px;
+  }
+  .card-3 {
+    width: 450px;
+    margin-bottom: 20px;
+  }
+  .card-itly {
+    width: 750px;
+  }
+  .card-maldives {
+    width: 750px;
+  }
+  .blog-card-1 {
+    width: 400px;
+    height: 200px;
+  }
+  .blog-card img {
+    width: 200px;
+  }
+  .blog-card-content p {
+    display: flex;
+    justify-content: space-between;
+  }
+  .card-title {
+    font-size: 20px;
+  }
+
+  .bar-txt h1 {
+    font-size: medium;
+  }
+  .bar-txt p {
+    font-size: small;
+  }
+  .book-btn button {
+    font-size: small;
+  }
+  .mobile-nav, menu{
+    position: sticky;
+    top: 0;
+    z-index: 999;
+  }
+
+}

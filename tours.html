@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="media.css" />
+
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
+    />
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script src="script.js"></script>
+  </head>
+
+  <body>
+    <!-- top-header -->
+    <section>
+      <div class="top-header">
+        <div class="div-1">
+          <div class="gmail">
+            <i class="ri-mail-fill"></i>
+            <p>k3tours@gmail.com</p>
+          </div>
+          <div class="location">
+            <i class="ri-map-pin-2-fill"></i>
+            <p>Bharatpur</p>
+          </div>
+        </div>
+        <div class="socials">
+          <i class="ri-twitter-fill"></i>
+          <i class="ri-facebook-circle-fill"></i>
+          <i class="ri-pinterest-fill"></i>
+          <i class="ri-instagram-fill"></i>
+        </div>
+      </div>
+
+      <nav class="nav-menu">
+        <div class="nav-logo">
+          <img src="./images/logo.png" alt="Logo" />
+        </div>
+
+        <div class="nav-bar">
+          <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">About</a></li>
+            <li><a href="#">Services</a></li>
+            <li><a href="#">Our Team</a></li>
+            <li><a href="#">Blogs</a></li>
+            <li><button class="btn-nav">Book Now</button></li>
+          </ul>
+        </div>
+      </nav>
+    </section>
+
+    <!-- Main -->
+    <section>
+      <div class="main">
+        <div class="main-img">
+          <img src="./images/Rectangle 63.jpg" alt="Main Image" />
+        </div>
+        <div class="main-txt">
+          <h5>Our Tours</h5>
+        </div>
+      </div>
+    </section>
+
+    <!-- Gallery -->
+    <div class="title">
+      <div class="title-txt">
+        <p>Give A Look At</p>
+      </div>
+      <div class="sub-txt">
+        <p>Gallery</p>
+      </div>
+    </div>
+
+    <!-- Swiper -->
+    <section style="margin-top: 50px; padding-bottom: 50px">
+      <!-- Slider main container -->
+      <div class="swiper mySwiperClass">
+        <!-- Additional required wrapper -->
+        <div class="swiper-wrapper">
+          <!-- Slides -->
+          <div class="swiper-slide">
+            <img src="./images/Rectangle 68.jpg" alt="Slide 1" />
+          </div>
+          <div class="swiper-slide">
+            <img src="./images/Rectangle 69.jpg" alt="Slide 2" />
+          </div>
+          <div class="swiper-slide">
+            <img src="./images/Rectangle 70.jpg" alt="Slide 3" />
+          </div>
+          <div class="swiper-slide">
+            <img src="./images/Rectangle 70.jpg" alt="Slide 3" />
+          </div>
+          <div class="swiper-slide">
+            <img src="./images/Rectangle 70.jpg" alt="Slide 3" />
+          </div>
+          <div class="swiper-slide">
+            <img src="./images/Rectangle 70.jpg" alt="Slide 3" />
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section>
+      <div class="title">
+        <div class="title-txt">
+          <p>Give A Look At</p>
+        </div>
+        <div class="sub-txt">
+          <p>Gallery</p>
+        </div>
+      </div>
+      <div class="contact-page">
+        <div class="contact-txt">
+          <p>text texxt text</p>
+          <p>text texxt text</p>
+          <p>text texxt text</p>
+        </div>
+
+        <div class="col-1">
+          <div class="contact-form">
+            <h2>Get in touch</h2>
+            <form action="/submit_form" method="post" class="form">
+              <div class="name">
+                <div class="input-box-fn">
+                  <label for="fname">First Name*</label>
+                  <input
+                    type="text"
+                    placeholder="Enter first name"
+                    required
+                    id="fname"
+                    class="input-tag"
+                  />
+                </div>
+
+                <div class="input-box-ln">
+                  <label for="lname">Last Name*</label>
+                  <input
+                    type="text"
+                    placeholder="Enter last name"
+                    required
+                    id="lname"
+                    class="input-tag"
+                  />
+                </div>
+              </div>
+
+              <div class="input-box">
+                <label for="email">Email*</label>
+                <input
+                  type="email"
+                  placeholder="example@gmail.com"
+                  required
+                  id="email"
+                  class="input-tag"
+                />
+              </div>
+
+              <div class="input-box">
+                <label for="subject">Subject*</label>
+                <input
+                  type="text"
+                  placeholder="Subject"
+                  required
+                  id="subject"
+                  class="input-tag"
+                />
+              </div>
+
+              <div class="input-box-message">
+                <label for="query" class="">Message*</label><br />
+                <textarea
+                  id="query"
+                  name="query"
+                  rows="6"
+                  placeholder="Message"
+                  required
+                  class=""
+                ></textarea>
+              </div>
+
+              <div class="form-submit">
+                <button type="submit" class="btn-primary">Submit</button>
+              </div>
+            </form>
+          </div>
+        </div>
+      </div>
+    </section>
+  </body>
+</html>

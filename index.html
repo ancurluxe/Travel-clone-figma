@@ -11,12 +11,13 @@
       referrerpolicy="no-referrer"
     />
     <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="media.css" />
     <title>A3 Trip</title>
   </head>
 
   <body>
     <!-- top-header -->
-    <section>
+    <section class="sticky">
       <div class="top-header">
         <div class="div-1">
           <div class="gmail">
@@ -35,36 +36,55 @@
           <i class="ri-instagram-fill"></i>
         </div>
       </div>
-      <!-- nav -->
-      <nav class="nav-bar">
-        <div class="logo">
-          <img src="./images/logo.png" alt="" />
-        </div>
-
-        <ul class="nav-contents">
-          <h class="menus">Home</h>
-          <h class="menus">Destination</h>
-          <h class="menus">Tour</h>
-          <h class="menus">Blog</h>
-          <h class="menus">Contact Us</h>
-          <button class="btn-nav">Book Now</button>
-          <div class="menu-icon">
-            <i class="ri-menu-line"></i>
+      <div class="nav-cont">
+        <nav class="nav-menu">
+          <div class="nav-logo">
+            <img src="./images/logo.png" alt="" />
           </div>
-        </ul>
+
+          <div class="nav-bar">
+            <ul>
+              <li><a href="#">Home</a></li>
+              <li><a href="#">About</a></li>
+              <li><a href="tours.html">Services</a></li>
+              <li><a href="#">Our Team</a></li>
+              <li><a href="#">Blogs</a></li>
+              <li><button class="btn-nav">Book Now</button></li>
+            </ul>
+          </div>
+        </nav>
+      </div>
+
+      <nav class="mobile-nav">
+        <div class="sidebar">
+          <ul>
+            <li><img src="./images/logo.png" alt="" /></li>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">About</a></li>
+            <li><a href="#">Services</a></li>
+            <li><a href="#">Our Team</a></li>
+            <li><a href="#">Blogs</a></li>
+          </ul>
+        </div>
+        <div class="menu">
+          <h onclick="toggleSidebar()">
+            <a href="#" class="nav-toggle hover-link">
+              <i class="ri-menu-line" id="icon"></i
+            ></a>
+          </h>
+        </div>
       </nav>
     </section>
 
     <!-- MAIN -->
-
     <section>
       <div class="main">
         <div class="main-img">
           <img src="./images/main-img.jpg" alt="" />
         </div>
         <div class="main-txt">
-          <p>It's Time</p>
-          <h2>To Make Memories</h2>
+          <p style="font-size: 21px">It's Time</p>
+          <h5>To Make Memories</h5>
           <div class="explore-btn">
             <button>Lets Explore</button>
           </div>
@@ -196,20 +216,22 @@
         </div>
 
         <div class="adventure-icons">
-          <div class="component">
+          <div class="inner-container">
+            <!-- <div class="wrap"> -->
             <li><img src="./images/Untitled.png" alt="" /></li>
             <p>AIR RIDES</p>
           </div>
-          <div class="component">
+          <!-- </div> -->
+          <div class="inner-container">
             <li><img src="./images/png.png" alt="" /></li>
             <p>HIKING</p>
           </div>
-          <div class="component">
+          <div class="inner-container">
             <li><img src="./images/mdi_foot-print.png" alt="" /></li>
             <p>WALKING</p>
           </div>
           <li>
-            <div class="component">
+            <div class="inner-container">
               <img
                 src="./images/material-symbols_sports-basketball-outline.png"
                 alt=""
@@ -235,7 +257,7 @@
         <div class="blog-card">
           <div class="blog-card-1">
             <div class="blog-card-img">
-              <img src="./images/blog-1.jpg" alt="" />
+              <img style="height: 100%" src="./images/blog-2.jpg" alt="" />
             </div>
             <div class="blog-card-content">
               <div class="title-head">
@@ -252,7 +274,7 @@
             </div>
           </div>
 
-          <div class="blog-card-2">
+          <div class="blog-card-1">
             <div class="blog-card-img">
               <img src="./images/blog-2.jpg" alt="" />
             </div>
@@ -261,9 +283,7 @@
                 <p>Aayu</p>
                 <p>2023-03-15</p>
               </div>
-              <h2 class="card-title">
-                Mountains In Nepal: Mt. Everest Mt. Manaslu, Mt.Annapurna!
-              </h2>
+              <h2 class="card-title">Mountains In Nepal: Mt.Annapurna!</h2>
               <div class="view">
                 <p class="card-description">View Full Vlog</p>
                 <i class="ri-arrow-right-line"></i>
@@ -383,38 +403,43 @@
           >
         </div>
 
-        <div class="quick-links">
-          <ul>
-            <h3>Quick links</h3>
-            <li>Destination</li>
-            <li>Tour</li>
-            <li>Blog</li>
-            <li>Contact Us</li>
-          </ul>
-        </div>
+        <div class="col-1">
+          <div class="quick-links">
+            <ul>
+              <h3>Quick links</h3>
+              <li>Destination</li>
+              <li>Tour</li>
+              <li>Blog</li>
+              <li>Contact Us</li>
+            </ul>
+          </div>
 
-        <div class="contact">
-          <ul>
-            <h3>Contact</h3>
-            <div class="c-icon">
-              <i class="ri-phone-fill"></i>
-              <li>1234 5678 1209</li>
-            </div>
-            <div class="c-icon">
-              <i class="ri-mail-fill"></i>
-              <li>mailto:k3tours@gmail.com</li>
-            </div>
-            <div class="c-icon">
-              <i class="ri-map-pin-2-fill"></i>
-              <li>Bharatpur -10 Chitwan, Nepal</li>
-            </div>
-          </ul>
+          <div class="contact">
+            <ul>
+              <h3>Contact</h3>
+              <div class="c-icon">
+                <i class="ri-phone-fill"></i>
+                <li>1234 5678 1209</li>
+              </div>
+              <div class="c-icon">
+                <i class="ri-mail-fill"></i>
+                <li>mailto:k3tours@gmail.com</li>
+              </div>
+              <div class="c-icon">
+                <i class="ri-map-pin-2-fill"></i>
+                <li>Bharatpur -10 Chitwan, Nepal</li>
+              </div>
+            </ul>
+          </div>
         </div>
 
         <div class="newsletter">
           <h3>Newsletter</h3>
-          <input type="text" placeholder="Email" class="f-mail" />
-          <i class="ri-mail-fill"></i>
+          <div class="email-icon">
+            <input type="text" placeholder="Email" class="f-mail" />
+            <i class="ri-mail-fill"></i>
+          </div>
+          <br />
           <button class="submit">submit</button>
         </div>
       </div>
@@ -423,5 +448,6 @@
         <p>© Copyright 2020 by A&Ptech.</p>
       </div>
     </section>
+    <script src="script.js"></script>
   </body>
 </html>
